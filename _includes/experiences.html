@@ -29,9 +29,15 @@
     </div><!--//details-->
     {% endif %}
 
+    {% if experience.technology %}
+    <div class="details">
+      Technology Stack
+      {{ experience.technology | markdownify }}
+    </div><!--//technology-->
+    {% endif %}
+
   </div><!--//item-->
   {% endfor %}
 
 </section><!--//section-->
 {% endif %}
-
