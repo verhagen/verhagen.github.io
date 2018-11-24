@@ -1,5 +1,5 @@
 #
-# Be aware that even a small syntax error here can lead to failures in output. 
+# Be aware that even a small syntax error here can lead to failures in output.
 #
 
 sidebar:
@@ -7,57 +7,85 @@ sidebar:
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
+    name: Tjeerd Verhagen
+    tagline: Freelance Full Stack Developer
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    github: sharu725
+    email: #tjeerd.verhagen@gmail.com
+    phone: #+31.6.2480 8350
+    website: verhagenitconsultancy.nl #do not add http://
+    linkedin: tjeerdverhagen
+    github: verhagen
     gitlab:
     bitbucket:
-    twitter: '@webjeda'
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
+    twitter: #'@webjeda'
+    stack-overflow: 261378/verhagen # Number/Username, e.g. 123456/alandoe
     codewars:
 
     languages:
-      - idiom: English
+      - idiom: Dutch
         level: Native
 
-      - idiom: French
+      - idiom: English
         level: Professional
 
-      - idiom: Spanish
+      - idiom: German
         level: Professional
-        
+
     interests:
-      - item: Climbing
+      - item: Cooking
+        link:
+
+      - item: Mountain biking
         link:
 
       - item: Snowboarding
         link:
 
-      - item: Cooking
-        link:
 
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
+      My name is Tjeerd Verhagen and as a _freelance_ Full Stack Developer / DevOps Engineer I have more than 20 years of experience. During my career I have always shown interest in all aspects of development. From initial customer need to running software in the production environment. Apart from the technical knowledge required for this, I am also interested in what methods there are to organize the work, how to get the most out of a team. If it happens that way, I like to give a presentation or workshop and thereby inspire others, so that they can make a flying start.
 
-      Second paragraph if required.
+      - Full Stack Developer
+      - DevOps Engineer
+      - T-Shaped
+
+      - Analytical
+      - Accurate
+      - Inquisitive
+      - Inspire
+
+      __Methods__
+
+      Kanban; Scrum; Agile Manifesto; Extreme Programming; Test Driven Development; Clean Code; Specification by Example; Domain Driven Design; Anglo-Saxon Model vs Rhineland Model
+
+      __Technology__
+
+      Source Code Management; Issue Tracking; Code Review; Unit-Testing; Code Coverage; Code Metrics; Continuous Integration; Continuous Delivery / Deployment; Virtualization; Source Code Analyzing; Artifact Repository; Document Generation
+
+      __Languages__
+
+      Java; Python; JavaScript; Bash
+
+      __Tools__
+
+      Eclipse; Eclipse-Plugins; Git; GitLab; GitHub; BitBucket; Mercurial; Maven 3; Maven-Plugins; TestNG; Mockito; JaCoCo; NodeJS; npm; Grunt; AngularJS; Jenkins; Travis-CI; Artifactory; Nexus; SonarQube; XL-Deploy; XL-Release, Spring 4; SpringBoot; Jersey; Cucumber; Selenium; IBM WebSphere; Jboss EAP; Jetty; Nginx; Docker; Kubernetes; Nolio; VmWare ESXi; Vagrant
+
+      __Operating Systems__
+
+      OS-X; RedHat; Debian; Cent-OS; Ubuntu; Free-BSD; LTSP
+
+      __Interests__
+
+      OpenAPI (Swagger); AWS; Docker; Kubernetes; Kafka; MongoDB; OrientDB; Cassandra; NodeJS; Express; ElasticStack; Angular; TypeScript; Scala; SaltStack
 
 education:
-    - degree: MSc in Computer Science
-      university: University of London
-      time: 2011 - 2012
+    - degree: BSc in Computer Science
+      university: Noordelijke Hogeschool Leeuwarden
+      time: 1993 - 1998
       details: |
         Describe your study here lorem ipsum dolor sit amet, consectetuer
         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
@@ -66,11 +94,11 @@ education:
         pretium quis, sem.
 
           - Bullet point
-          - Bullet point 
+          - Bullet point
 
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
-      time: 2007 - 2011
+    - degree: VHBO - HAVO
+      university: Trias College
+      time: 1988 - 1992
       details: |
         Describe your study here lorem ipsum dolor sit amet, consectetuer
         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
@@ -79,99 +107,91 @@ education:
         pretium quis, sem.
 
           - Bullet point
-          - Bullet point 
+          - Bullet point
 
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
+    - role: Infrastructure Developer
+      time: September 2016 - May 2018
+      company: Dienst Uitvoering Onderwijs (DUO), Groningen
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
+        As a member of the Continuous Integration and Delivery Deployment Team, there were a lot of challenges. As a team we were dealing with the transition from a green field project to a service delivery team. The green field project was set up to automatically roll out the new RedHat-based environments for all DevOps team within DUO.
+        An important part of this is the Provisioning Self Service Portal, through which developers and testers can request and manage their own environment (s). This means that they have their own JBoss EAP instances at their disposal. Possibly supplemented with Static Content instances and database schema links. Where test data can be loaded if necessary.
 
-          - Bullet point
-          - Bullet point 
+          - Infrastructure as Code
+          - Immutable Infrastructure
+          - Infrastructure as a Service
+          - Self-Service
 
-    - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
+        Configered filebeat and logstash for additional logging from JMeter results in Jenkins. Giving testers easy access to the results. Involved in the upgrade from ElasticSearch 3 to 5 / 6 including additional tool stack.
+      technology: |
+        RedHat Linux 7 (500+ VM’s), JBoss EAP, Nginx, RedHat IPA, RedHat Satellite, Zabbix, Puppet, Elastic Stack, XL-Deploy, XL-Release, Jenkins master / slaves, Artifactory, SonarQube, HPE-Fortify, Subversion, Git, Gerrit, GitLab, Jira, Confluence, VMWare ESXi, Microsoft Orchestrator, Maven, Java, AngularJS, Python, Bash shell scripting, IBM DB2, Redis
+
+    - role: Solution Architect; Senior Java Developer; Coach
+      time: October 2015 - September 2016
+      company: Dienst Uitvoering Onderwijs (DUO), Groningen
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
+        Setting up integration tests on the basis of Specification by Example, within the _Programma Vernieuwing Studiefinanciering_ (PVS) (_Program Renewal of Student Finance_), in the Integration Test Team.
+        Developing a glue library, allowing setting up basic principle for the various integration tests.
+        Give workshops to other team members, so they understand the new technology stack as well.
+        Workshops DUO wide for mostly testers. With subjects like TDD, BDD and API testing in a Java environment. But also with things like use of Eclipse, Git, Maven 3, Jenkins.
+      technology: |
+        Agile, Scrum, Java, Cucumber, Git, GitLab, Selenide, Maven 3, Jenkins, Junit 4, Selenium, WebDriver, GitLab, Docker, CentOS
 
-          - Bullet point
-          - Bullet point
-
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
+    - role: Parasoft Consultant
+      time: April 2015 - September 2015
+      company: Dienst Uitvoering Onderwijs (DUO), Groningen
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
+        Within the _Programm Vernieuwing Studiefinanciering_ (PVS) (_Program Renewal of Student Finance_), as member of the Integration Test Team, investigate the possibilities to use Parasoft Virtualize, for simulating connected systems. This was for internal as well as for external PVS systems.
+      technology: |
+        Parasoft Virtualize; Parasoft SOATest
 
-          - Bullet point
-          - Bullet point
+#projects:
+#    title: Projects
+#    intro: >
+#      You can list your side projects or open source libraries in this
+#      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+#      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+#
+#    assignments:
+#      - title: Velocity
+#        link: "#hook"
+#        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+#
+#      - title: DevStudio
+#        link: "#"
+#        tagline: "A responsive website template designed to help web developers/designers market their services."
+#
+#      - title: Tempo
+#        link: "#"
+#        tagline: "A responsive website template designed to help startups promote their products or services and to attract #users &amp; investors"
+#
+#      - title: Atom
+#        link: "#"
+#        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+#
+#      - title: Delta
+#        link: "#"
+#        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
-projects:
-    title: Projects
-    intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-
-    assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
-
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
-
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-publications:
-    title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
-
-    papers:
-      - title: The Art of Computer Programming
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
-
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-      - title: A syntax directed compiler for Algol 60
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+#publications:
+#    title: Publications
+#    intro: |
+#      You can list your publications in this section. Lorem ipsum dolor sit
+#      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
+#      bibendum fringilla a eu lectus.
+#
+#    papers:
+#      - title: The Art of Computer Programming
+#        authors: Donald E. Knuth
+#        conference: Addison-Wesley, 1968
+#
+#      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
+#        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
+#        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+#
+#      - title: A syntax directed compiler for Algol 60
+#        authors: Edgar T. Irons
+#        conference: "Comm. ACM 4 (1961), 51–55"
 
 skills:
     title: Skills &amp; Proficiency
