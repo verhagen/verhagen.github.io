@@ -8,7 +8,7 @@ sidebar:
 
     # Profile information
     name: Tjeerd Verhagen
-    tagline: Freelance Full Stack Developer
+    tagline: Independent Consultant, Full Stack Developer
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
@@ -31,7 +31,7 @@ sidebar:
         level: Professional
 
       - idiom: German
-        level: Professional
+        level: Good oral
 
     interests:
       - item: Cooking
@@ -141,7 +141,7 @@ experiences:
       time: April 2015 - September 2015
       company: Dienst Uitvoering Onderwijs (DUO), Groningen
       details: |
-        Within the _Programm Vernieuwing Studiefinanciering_ (PVS) (_Program Renewal of Student Finance_), as member of the Integration Test Team, investigate the possibilities to use Parasoft Virtualize, for simulating connected systems. This was for internal as well as for external PVS systems.
+        Within the _Programma Vernieuwing Studiefinanciering_ (PVS) (_Program Renewal of Student Finance_), as member of the Integration Test Team, investigate the possibilities to use Parasoft Virtualize, for simulating connected systems. This was for internal as well as for external PVS systems.
       technology: |
         Parasoft Virtualize; Parasoft SOATest
 
@@ -193,27 +193,27 @@ experiences:
 #        authors: Edgar T. Irons
 #        conference: "Comm. ACM 4 (1961), 51–55"
 
-skills:
-    title: Skills &amp; Proficiency
-
-    toolset:
-      - name: Python & Django
-        level: 98%
-
-      - name: Javascript & jQuery
-        level: 98%
-
-      - name: Angular
-        level: 98%
-
-      - name: HTML5 & CSS
-        level: 95%
-
-      - name: Ruby on Rails
-        level: 85%
-
-      - name: Sketch & Photoshop
-        level: 60%
+#skills:
+#    title: Skills &amp; Proficiency
+#
+#    toolset:
+#      - name: Python & Django
+#        level: 98%
+#
+#      - name: Javascript & jQuery
+#        level: 98%
+#
+#      - name: Angular
+#        level: 98%
+#
+#      - name: HTML5 & CSS
+#        level: 95%
+#
+#      - name: Ruby on Rails
+#        level: 85%
+#
+#      - name: Sketch & Photoshop
+#        level: 60%
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
