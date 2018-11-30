@@ -23,6 +23,12 @@
 
     </div><!--//meta-->
 
+    {% if experience.task %}
+    <div class="details">
+      {{ experience.task }}
+    </div><!--//task-->
+    {% endif %}
+
     {% if experience.details %}
     <div class="details">
       {{ experience.details | markdownify }}

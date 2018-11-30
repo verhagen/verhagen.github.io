@@ -125,9 +125,9 @@ experiences:
           - Infrastructure as a Service
           - Self-Service
 
-        Configered filebeat and logstash for additional logging from JMeter results in Jenkins. Giving testers easy access to the results. Involved in the upgrade from ElasticSearch 3 to 5 / 6 including additional tool stack.
+        Configured filebeat and logstash for additional logging from JMeter results in Jenkins. Giving testers easy access to the results. Involved in the upgrade from ElasticSearch 3 to 5 / 6 including additional tool stack.
       technology: |
-        RedHat Linux 7 (500+ VM’s), JBoss EAP, Nginx, RedHat IPA, RedHat Satellite, Zabbix, Puppet, Elastic Stack, XL-Deploy, XL-Release, Jenkins master / slaves, Artifactory, SonarQube, HPE-Fortify, Subversion, Git, Gerrit, GitLab, Jira, Confluence, VMWare ESXi, Microsoft Orchestrator, Maven, Java, AngularJS, Python, Bash shell scripting, IBM DB2, Redis
+        RedHat Linux 7 (500+ VM’s), JBoss EAP, Nginx, RedHat IPA, RedHat Satellite, Zabbix, Puppet, Elastic Stack, XL-Deploy, XL-Release, Jenkins master / slaves, Artifactory, SonarQube, HPE-Fortify, Subversion, Git, Gerrit, GitLab, Jira, Confluence, VmWare vSphere, VmWare ESXi, Docker, Microsoft Orchestrator, Maven, Java, AngularJS, Python, Bash shell scripting, IBM DB2, Redis
 
     - role: Solution Architect; Senior Java Developer; Coach
       time: October 2015 - September 2016
@@ -147,6 +147,215 @@ experiences:
         Within the _Programma Vernieuwing Studiefinanciering_ (PVS) (_Program Renewal of Student Finance_), as member of the Integration Test Team, investigate the possibilities to use Parasoft Virtualize, for simulating connected systems. This was for internal as well as for external PVS systems.
       technology: |
         Parasoft Virtualize; Parasoft SOATest
+
+    - role: Senior Java Developer
+      time: August 2013 - March 2015
+      company: ING Bank, Leeuwarden
+      details: |
+        Our DevOps Team was responsible for converting ING backoffice web forms to the new technology stack. Together with the Product Owner, we were responsible for all aspects from initial requirements till running it production.
+        - Building and testing of forms build with AngularJS;
+        - Building and testing of Java Rest-APIs;
+        - Building and testing of SOAP-service clients;
+        - Deployen through DTAP environment;
+        - Administration of the Team own Linux development server.
+      technology: |
+        Agile / Scrum, J2SE 7, J2EE 6, AngularJS, Maven 3, Jenkins, Junit 4, Mockito, Karma, Protractor, Eclipse, Git, Parasoft Virtualize, SoapUI, Jetty, JSON, Nolio, Debian
+
+    - role: Senior Java Developer
+      time: June 2012 - June 2013
+      company:
+      details: |
+        Design and development of various internet banking wizards, which are part of the ING internet banking web application. Both front-end development and connecting with backend system through Tibco web services.
+        - Design, construction and testing of web applications in a Scrum team;
+        - Deployment of the web application through the DTAP;
+        - Improving the code issues that appear in the existing code in the Sonar / Fortify checks. Include refactoring as part of the daily activities;
+        - Being part of the open-source projects within ING, similar to Eclipse / Apache open-source projects;
+        - Implementing improvements in the local development environment and CI environment;
+        - Manage the Team own Linux development server;
+        - Writing documentation, about setting up a development environment.
+      technology: |
+        Agile / Scrum / XP, Java 6, Spring MVC, Spring WS, Nexus, Maven 3, Jenkins, Sonar, Fortify, Git, Junit, Eclipse, RSA, WebSphere, Jetty, Selenium, Fitnesse, Confluence, Jira, TDD, Continuous Integration, Continuous Delivery, XSD, XML, Web-Services, SOAP, JavaScript, Balsamiq, Debian
+
+    - role: Mobile App Developer
+      time: December 2011 - March 2012
+      company: Leger des Heils, Almere
+      details: |
+        Implementation of the design, in several sprints, where each sprint demo showed the new additions and improvements.
+      technology: |
+        AppCelerator, Xcode, Android SDK, iPhone, iPad, Android phone, JavaScript, Balsamiq
+
+    - role: Application Auditor
+      time: November 2011 - November 2011
+      company: Nederland Werkt Mee
+      details: |
+        This assignment was asked to do an audit of the already developed software. The audit paid attention to various points, including: performance (suitability for this purpose); price (production, license and management costs); amount of functionality realized.
+        The audit report has been the basis on which various IT components have, or have not been taken over by _Stichting NL_ (NL Foundation).
+      technology: |
+        PHP 5, Symfony 2.0, Doctrince 2.0, MySql 5.1, Zend Paginator, JQuery, MongoDB, Groovy, Liferay
+
+    - role: Java Architect / Senior Java Developer
+      time: September 2011 - October 2011
+      company: Oxyme, Amsterdam
+      details: |
+        Providing advice on technical improvements to application architecture, particularly in the field of OSGi. Reduce the time to market, for the software developed. Daily deploments. Re-establishing Continuous Integration environment. Give advice on what to use for the Issue Management system and how to set it up.
+        Activities:
+        - Evaluate the architecture of the OSGi application;
+        - Improve the design of the OSGi bundles;
+        - Improve the Maven setup;
+        - Setting up CI environment;
+        - Advise on how to set up an issue management system;
+        - Developing OSGi bundles, for new functionality;
+        - Code reviews.
+      technology: |
+        Apache Felix, Apache Karaf, Spring DI, Spring DM, Spring ORM - Hibernate - PostgreSQL, JPA, Apache ActiveMQ, Wicket, Maven 2/3, Nexus, Jenkins, Jira
+
+    - role: Senior Java Developer
+      time: March 2009 - January 2011
+      company: Asset-Control, Beetsterzwaag
+      details: |
+        In addition to the AC-Server, there are a large number of AC-Interfaces, with which financial data from data vendors can be loaded in the AC-Server in a standardized manner. The changes that the various data vendors implement in their product can have an effect on the corresponding AC-Interface.
+        In addition to adjusting the various interfaces, Tjeerd has worked to improve the (automated) testability, improve the development process, improve the Continuous Integration and professionalize the accompanying documentation. Generating PDFs and HTML based on DocBook XML.
+        In doing so, he wrote, among AC-Interface functionality, Maven-Plug-ins, Eclipse-Plugins and Junit extensions. With these JUnit extentions specific AC-Interface tests, could be run like Junit tests.
+      technology: |
+        Java 5/6, Maven 2, VmWare LabManager, DocBook, XSL, XSLT
+
+    - role: Senior Java Developer
+      time: November 2011 - November 2011
+      company: Asset-Control, Beetsterzwaag
+      task: On Demand Asset Request Service
+      details: |
+        At the request of a customer, the On Demand Asset Request Service was developed. This service can be used to retrieve the details of an asset, based on a direct question, at one of the data vendors.
+        Because high demands were made on availability and there was a high chance of changes, the modularity of OSGi was chosen.
+      technology: |
+        OSGi Equinox, Java 5/6, Maven 2
+
+    - role: Continuous Integration Specialist
+      time: November 2011 - November 2011
+      company: Asset-Control, Beetsterzwaag
+      task: Setting up a new Continuous Integration Environment
+      details: |
+        - Setting up the Hudson server;
+        - Updating all project from Ant to Maven.
+      technology: |
+        Hudson, Nexus, Maven, csv
+
+    - role: Senior Java Developer
+      time: December 2007 - November 2008
+      company: Asset-Control, Beetsterzwaag
+      task: AC-Desktop 3.x
+      details: |
+        The existing AC-Desktop was not user-friendly and had arisen from a technical approach. As a result, AC-Desktop 2.x was unnecessarily complex for the largest group of end users. The development of AC-Desktop 3 is based on the users who do data handling. The desktop is a Swing application, which connects to the AC Server. This allows the end users to gain insight into the financial data stored in the AC Server. Tjeerd has done both part of the development and looked at the continuous integration system. Until then, Ant was used in combination with Continuous Integration. In this project, the existing system was also used (trial run) with Maven, Hudson and Nexus.
+      technology: |
+        Java 5, Swing, Continues Integration, Ant, Maven, Hudson, Nexus
+
+    - role: Continuous Integration Specialist
+      time: April 2007 - November 2007
+      company: Asset-Control, Beetsterzwaag
+      task: Setting up VM environment for integration tests
+      details: |
+        Setting up the automated test environment through VmWare LabManager. Using client images for the different environments. The software under test was automatically installed. Then the integration tests were carried out and the results were retrieved. These could then be compared from within the CI environment with previous results.
+      technology: |
+        VmWare Server, VmWare LabManager, Ant, Continuous Integration, MQ-Series, Sonic-MQ, WebSphere, Jboss, Oracle Application Server
+
+    - role: Java Architect; Senior Java Developer
+      time: September 2006 - March 2007
+      company: Contrado, Groningen
+      task: Integraal Klantcontact KPN
+      details: |
+        Updating the existing application, which until then made of accessed multiple databases directly. The databases where replaced by other systems, which could be accesed by SOAP messages.
+      technology: |
+        Java 1.4/5, SOAP, Apache Axis 2, WSDL, Ant, Maven, commons logging, Jira
+
+    - role: Senior Java Developer
+      time: April 2004 - August 2006
+      company: Contrado, Groningen
+      task:
+      details: |
+        Participate daily in the construction of the Order Manager within the Scrum Team.
+        - Automatic generation of Release Notes in the form of PDF and HTML. A part of the data was extracted from Jira. Each release of the Order Manager, therefore, also provided the corresponding Release Notes.
+      technology: |
+        Agile / Scrum, Java 1.4, Spring-DI, Spring-AOP, Spring-ORM, Hibernate, Oracle Application Server, cvs, Ant, Maven, DocBook, XML, XSL, XSLT, Jira, Apache Axis
+
+    - role: Senior Java Developer; Continuous Integration Specialist
+      time: September 2003 - March 2004
+      company: KPN, Den Haag
+      task: Service Order Gateway
+      details: |
+        Based on the change request from the customer, adjustments had to be made to the Service Order Gateway (SOG) client application, in which Tjeerd functioned as a developer.
+        To gain more insight into the functioning of the application, Tjeerd has made a number of UML diagrams of the application to supplement the existing documentation. With the knowledge and experience from previous projects with regard to automatic build and release processes, Tjeerd has implemented a number of changes, making it easy to compile, run and test the application both on the local workstations and on the server.
+        Partly on the advice of Tjeerd during the project was chosen to change source version management tool, the choice is made for cvs.
+      technology: |
+        Java, Swing, cvs, Ant, UML
+
+    - role: Java Architect; Senior Java Developer
+      time: October 2002 - July 2003
+      company: Shell
+      task: Pims
+      details: |
+        For PIMS, Tjeerd defined the architecture of this web application.The techniques to be used had already been recorded and consisted of Java, JSP, Tomcat and Oracle. Various open source components were added for such things as logging, database connection pooling, user input validation and unit testing. Furthermore, the MVC concept was chosen as the basis for the web application. POJOs were used to transport information within the application. These were generated on the basis of an XML schema. In the development use was made of open standards such as XML, XML schema, CSS and HTML 4.
+        When designing the application, the viewed design patterns for web applications such as MVC, DAO, Plug-In were used as much as possible.In addition, the source code version management set up and introduced to the other team members. This supplemented with build, test and release scripts.
+      technology: |
+        Java 1.3, Apache Struts, Oracle SQLJ, Castor, XSD, HTML, CSS, Ant, Junit, cvs
+
+    - role: Java Architect; Senior Java Developer; CI
+      time: March 2002 - September 2002
+      company: Delta, Middelburg
+      task: Middleware connection
+      details: |
+        The Tibco middleware consists of a number of basic products and an extensive range of standard adapters for various back-office systems. However, there is no standard adapter for the Cordaptix billing package.
+        The technical design for this had to be made first. It was very important to get a quick insight into the functioning of the various back-office systems that sent Tibco messages towards Cordaptix. As a starting point for thecommunication with Cordaptix served the new interface based on XML-SOAP. When designing as much use as possible of design patterns noted in UML. The implementation has been done by means of Tibco adapter SDK. In addition, use was made of various open source standards and components, such as XML, XML Schema, FreeMarker, log4j, etc.
+      technology: |
+        Java, Tibco-SDK, SOAP, FreeMarker, Log4j, Cvs, Ant, UML
+
+    - role: Java Developer
+      time: Sep 2001 - Feb 2002
+      company: Deutsche Börse, Frankfurt am Main
+      #task:
+      #details: |
+      #technology: |
+
+    - role: Java Developer
+      time: Sep 2000 - Jul 2001
+      company: Achmea, Apeldoorn
+      #task:
+      #details: |
+      #technology: |
+
+    - role: Java Developer; Tester; System Engineer
+      time: Apr 2000 - Jul 2000
+      company: OHRA, Arnhem
+      #task:
+      #details: |
+      #technology: |
+
+    - role: Application Design
+      time: 2000
+      company: Genton, Groningen
+      #task:
+      #details: |
+      #technology: |
+
+    - role: Java Trainer
+      time: 2000
+      company: Logica, Amsterdam
+      #task:
+      #details: |
+      #technology: |
+
+    - role: Java Developer
+      time: Sep 1999 - Mar 2000
+      company: Achmea, Apeldoorn
+      #task:
+      #details: |
+      #technology: |
+
+    - role: Java Developer
+      time: Jan 1999 - Jul 1999
+      company: KPN
+      #task:
+      #details: |
+      #technology: |
+
 
 #projects:
 #    title: Projects
