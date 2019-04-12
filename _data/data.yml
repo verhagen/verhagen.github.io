@@ -112,7 +112,21 @@ education:
           - Bullet point
           - Bullet point
 
+
+
+
 experiences:
+    - role: Senior Java Developer
+      time: December 2018 - current
+      company: LexisNexis, Leiden
+      details: |
+        The development of TotalPatentOne is in a crucial phase, as they like to replace the older TotalPatent solution by the new version.
+        One of the most critical pieces, the TPO search language, contained several issues.
+        As member of the search team, I was involved in defining the search specific grammar for patent documents. This search grammar is written in Antlr4.
+        Based on the generated Antlr classes, we implemented the TPO query model, which is a tree model. This tree is then used by several visitors, for optimizing the tree, calculating search complexity, validating specific input details. And finally to create the ElasticSearch specific query.
+      technology: |
+        Antlr4, Spring-Boot, ElasticSearch 6, TDD, Scrum, Maven 3, GitLab, Junit 4, Mockito, Git, Karate
+
     - role: Infrastructure Developer
       time: September 2016 - May 2018
       company: Dienst Uitvoering Onderwijs (DUO), Groningen
