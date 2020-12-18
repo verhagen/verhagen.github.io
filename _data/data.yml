@@ -46,6 +46,9 @@ sidebar:
       - item: Snowboarding
         link:
 
+      - item: Stand Up Paddle boarding
+        link:
+
 
 career-profile:
     title: Career Profile
@@ -71,7 +74,7 @@ career-profile:
 
       __Languages__
 
-      Java; Python; JavaScript; Bash
+      Java; Python; TypeScript; Bash
 
       __Tools__
 
@@ -83,7 +86,7 @@ career-profile:
 
       __Interests__
 
-      OpenAPI (Swagger); AWS; Docker; Kubernetes; Kafka; MongoDB; OrientDB; Cassandra; NodeJS; Express; ElasticStack; Angular; TypeScript; Scala; SaltStack
+      OpenAPI (Swagger); AWS; Docker; Kubernetes; Kafka; MongoDB; OrientDB; Cassandra; NodeJS; Express; ElasticStack; Angular; Kotlin; SaltStack
 
 education:
     - degree: BSc in Computer Science
@@ -117,7 +120,29 @@ education:
 
 experiences:
     - role: Senior Java Developer
-      time: December 2018 - current
+      time: June 2020 - December 2020
+      company: Belastingdienst, Apeldoorn
+      details: |
+        During the conversion of the application _Handmatig Opvoeren Betalingen_, from WebSphere v8.5 to WebSphere v9.0, I've solved a nasty bug!
+
+        Initially I've been adding and updating existing Robot Framework scripts, but soon the question was asked if this is the best way to regression test the functional requirements. Also learning curve for Robot Framework is quite high and maintainability quite hard. After setting up a POC for Cucumber as well as Karate API Testing, the team decided in favor of Cucumber. It looks better maintainable and is a lot developer friendly! An additional advantange, which was 'discovered' during the conversion of some inital Robot Framwork test to Cucumber scenario's, was the abbility to debug!
+      technology: |
+        WebSphere 8.5 / 9.0, Scrum, SAFe, Java 8, Maven 3, Git, BitBucket, Jenkins Pipeline, Junit 5, Mockito, Cucumber, Selenium, Karate, Robot Framework
+
+    - role: Senior Java Developer
+      time: September 2019 - December 2019
+      company: LexisNexis, Leiden
+      details: |
+        As team member of the Search Team, I simplified the Integration Tests, by using a locally launched (and stopped) Elasticsearch Node, through Maven. Instead of through a Docker instance. This makes it easier and faster. As well as easier to change to a newer version for testing.
+
+        Developed a Maven plug-in, which creates an Elastic script, for creating index, mapping and initial data filling.
+
+        Designed the architecture for a Time-Machine based File-Store as well as developed it, with use of Verticles from Vert.x (comparable with Actors in Akka). Through this implementation of the File Store, there are stable data sets available. Which is a great improvement for testing. There is a restful interface, which makes it possible to directly upload a specific set of documents into a specific Elasticsearch cluster.
+      technology: |
+        Vert.x, ElasticSearch, Java, GitLab CI, Maven, Maven Plug-in, Karate API Testing
+
+    - role: Senior Java Developer
+      time: December 2018 - May 2019
       company: LexisNexis, Leiden
       details: |
         The development of TotalPatentOne is in a crucial phase, as they like to replace the older TotalPatent solution by the new version.
