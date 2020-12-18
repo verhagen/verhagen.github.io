@@ -123,9 +123,9 @@ experiences:
       time: June 2020 - December 2020
       company: Belastingdienst, Apeldoorn
       details: |
-        During the conversion of the application _Handmatig Opvoeren Betalingen_, from WebSphere v8.5 to WebSphere v9.0, I've solved a nasty bug!
+        During the conversion of the application _Handmatig Opvoeren Betalingen_, from WebSphere v8.5 to WebSphere v9.0, I've solved a nasty bug.
 
-        Initially I've been adding and updating existing Robot Framework scripts, but soon the question was asked if this is the best way to regression test the functional requirements. Also learning curve for Robot Framework is quite high and maintainability quite hard. After setting up a POC for Cucumber as well as Karate API Testing, the team decided in favor of Cucumber. It looks better maintainable and is a lot developer friendly! An additional advantange, which was 'discovered' during the conversion of some inital Robot Framwork test to Cucumber scenario's, was the abbility to debug!
+        Initially I've been adding and updating existing Robot Framework scripts, but soon the question was asked if this is the best way to regression test the functional requirements. Also the learning curve for Robot Framework is quite high and maintainability quite hard. After setting up a POC for Cucumber as well as Karate API Testing, the team decided in favor of Cucumber. It looks better maintainable and is a lot developer friendly! An additional advantage, which was 'discovered' during the conversion of some initial Robot Framework test to Cucumber scenario's, was the ability to debug!
       technology: |
         WebSphere 8.5 / 9.0, Scrum, SAFe, Java 8, Maven 3, Git, BitBucket, Jenkins Pipeline, Junit 5, Mockito, Cucumber, Selenium, Karate, Robot Framework
 
