@@ -119,13 +119,25 @@ education:
 
 
 experiences:
+    - role: Senior Java / Angular Developer
+      time: May 2021 - December 2021
+      company: Cipal Schaubroeck, Nazareth België
+      details: |
+        - Adding Lima functionality for the new 2022 DMFA (multifunctionele aangifte) rules from the Belgian tax office;
+        - Importing data through batch import from Excel;
+        - Importing attachments / avatars through batch import from Zip file;
+        - Exporting data as Excel files;
+        - Creating enum-generator-maven-plugin for generating source code based on database content.
+      technology: |
+        Scrum / Agile, Java 8, Maven 3, Git, GitLab, Junit 4, Mockito, Spring, Angular, TypeScript, Vagrant, Docker, Informix, DB-Viewer, IntelliJ, Jira, Confluence, Teams, Slack,
+
     - role: Senior Java Developer
       time: June 2020 - December 2020
       company: Belastingdienst, Apeldoorn
       details: |
         During the conversion of the application _Handmatig Opvoeren Betalingen_, from WebSphere v8.5 to WebSphere v9.0, I've solved a nasty bug.
 
-        Initially I've been adding and updating existing Robot Framework scripts, but soon the question was asked if this is the best way to regression test the functional requirements. Also the learning curve for Robot Framework is quite high and maintainability quite hard. After setting up a POC for Cucumber as well as Karate API Testing, the team decided in favor of Cucumber. It looks better maintainable and is a lot developer friendly! An additional advantage, which was 'discovered' during the conversion of some initial Robot Framework test to Cucumber scenario's, was the ability to debug!
+        Initially I've been adding and updating existing Robot Framework scripts, but soon the question was asked if this is the best way to regression test the functional requirements. Also the learning curve for Robot Framework is quite high and maintainability quite hard. After setting up a POC for Cucumber as well as Karate API Testing, the team decided in favour of Cucumber. It looks better maintainable and is a lot developer friendly! An additional advantage, which was 'discovered' during the conversion of some initial Robot Framework test to Cucumber scenario's, was the ability to debug!
       technology: |
         WebSphere 8.5 / 9.0, Scrum, SAFe, Java 8, Maven 3, Git, BitBucket, Jenkins Pipeline, Junit 5, Mockito, Cucumber, Selenium, Karate, Robot Framework
 
