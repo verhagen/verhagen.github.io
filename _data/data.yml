@@ -119,9 +119,63 @@ education:
 
 
 experiences:
+    - role: Senior Java Developer
+      time: January 2023 - August 2023
+      company: Swift, La Hulpe Belgium
+      details: |
+        As the logs flow from production to the back office, they pass through a Sensitive Data Scanner. This Scanner did require some maintenance, especially updating the Java and Kafka versions.
+
+        The setup of the project and the lack of (unit) tests, made it also hard to maintain and making changes in the code.
+
+        What did I do:
+        - Introducing the Maven Module structure
+        - Adding unit tests and mutation testing
+        - Refactoring the code, so it became better testable
+        - Solving issus in the code, so the vulnerability scans
+        - Knowledge transfers, with other developer
+        - Using git-repo with feature branches
+        - Setting up the build in Cloudbees-CI Environment (Jenkins)
+        - Set up creation of Docker image
+        - Deploying the Docker image and it's configuration with Ansible
+          - Improving the Ansible deploymnt, so it's more inline with other unix applications
+          - Adding the log4j configuration, as part of the deployment (and no longer only in the jar)
+        - Updating to Kafka version in production
+          - Replacing deprecated Kafka features (branch -> split)
+        - Updating to Java 17
+        - Updating Maven dependencies and plug-ins
+        - Improving configuration
+          - Allow different formats (plain text, properties, json, csv)
+          - Allow comments in the  configurations
+        - Adding some design patterns: _Chain of Responsibility_, _Visitor_, _Fluent Interface_
+        - Removing duplicated code
+        - Improving the creation of Kafka Topologies
+        - Adding Feature Toggles for:
+          - switching between implementations of topology models
+          - sending output as avro record
+          - sending output as json
+        - Updating the logging, to use latest feathers of log4j2
+        - Logging as json, instead of flat message
+        - Using new features of the Java language and libraries
+        - Improving the cli by adding Picocli
+        - Adding version info, git hash as code in the build, so it can be used for logging during startup
+        - Adding version info, of libraries used
+        - Adding documentation
+      technology: |
+        Scrum / Agile, Java 17, Maven 3.8, (Gradle 8), Kafka 3.3, JUnit 4/5, Mockito, jsonassert, Cloudbees-CI, Nexus, Jenkins, SonarQube, NexusIQ, Synopsys  Converity, Git, BitBucket, Confluence, Jira, Crucible, MatterMost, Teams, Docker, Ansible Tower, RedHat, Universal Base Image, VmWare
+
+    - role: Developer
+      time: January 2022 - June 2022
+      company: CertiQ B.V. (TenneT), Arnhem
+      details: |
+        Cleanup implementation of functionality, no longer in use. Implement new business requirements.
+
+        Implement several business validations, in C# and TypeScript, which could then be used by the PowerApps application.
+      technology: |
+        Scrum / Agile, IntelliJ, Java 8, Maven 3, JBoss, LiquiBase, Jira, Confluence, FitNesse, Visual Code (TypeScript, C#)
+
     - role: Senior Java / Angular Developer
       time: May 2021 - December 2021
-      company: Cipal Schaubroeck, Nazareth België
+      company: Cipal Schaubroeck, Nazareth Belgium
       details: |
         - Adding Lima functionality for the new 2022 DMFA (multifunctionele aangifte) rules from the Belgian tax office;
         - Importing data through batch import from Excel;
@@ -129,7 +183,7 @@ experiences:
         - Exporting data as Excel files;
         - Creating enum-generator-maven-plugin for generating source code based on database content.
       technology: |
-        Scrum / Agile, Java 8, Maven 3, Git, GitLab, Junit 4, Mockito, Spring, Angular, TypeScript, Vagrant, Docker, Informix, DB-Viewer, IntelliJ, Jira, Confluence, Teams, Slack,
+        Scrum / Agile, Java 8, Maven 3, Git, GitLab, Junit 4, Mockito, Spring, Angular, TypeScript, Vagrant, Docker, Informix, DB-Viewer, IntelliJ, Jira, Confluence, Teams, Slack
 
     - role: Senior Java Developer
       time: June 2020 - December 2020
